@@ -24,7 +24,9 @@
     "morgan": "1.5.0",
     "commander": "2.5.0",
     "async": "0.9.0",
-    "q": "1.1.2"
+    "q": "1.1.2",
+    "kasra-logger": "git+ssh://git@kasra-deploy:menapost/kasra-logger.git",
+    "kasra-db": "git+ssh://git@kasra-deploy:menapost/kasra-db.git"
   },
   "devDependencies": {
     "chai": "1.10.0",
