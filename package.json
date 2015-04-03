@@ -1,0 +1,51 @@
+{
+  "name": "kasra-base-service",
+  "version": "1.0.0",
+  "description": "Implements base service module, creates service and base app with common middlewares and error handlers attached.",
+  "main": "index.js",
+  "readmeFilename": "readme.md",
+  "_id": "kasra-base@1.0.0",
+  "_resolved": "git+ssh://git@kasra-deploy:menapost/kasra-base.git",
+  "_from": "kasra-base@git+ssh://git@kasra-deploy:menapost/kasra-base.git",
+  "keywords": [
+    "base"
+  ],
+  "scripts": {
+    "lint": "jshint .",
+    "validate": "",
+    "test": ""
+  },
+  "dependencies": {
+    "errorhandler": "1.2.2",
+    "express": "4.10.2",
+    "express-validation": "0.3.0",
+    "lodash": "3.6.0",
+    "underscore.string": "2.4.0",
+    "morgan": "1.5.0",
+    "commander": "2.5.0",
+    "async": "0.9.0",
+    "q": "1.1.2"
+  },
+  "devDependencies": {
+    "chai": "1.10.0",
+    "gulp": "3.8.8",
+    "gulp-develop-server": "0.2.5",
+    "gulp-jshint": "1.8.5",
+    "gulp-load-plugins": "0.7.0",
+    "gulp-mocha": "1.1.1",
+    "gulp-notify": "2.0.1",
+    "gulp-plumber": "0.6.6",
+    "gulp-util": "3.0.1",
+    "gulp-webserver": "0.8.3",
+    "sinon": "1.12.1",
+    "sinon-chai": "2.6.0",
+    "supertest": "0.15.0",
+    "vinyl-source-stream": "1.0.0",
+    "precommit-hook": "latest"
+  },
+  "author": "Tamas Geschitz",
+  "license": "private",
+  "engines": {
+    "node": "0.10.33"
+  }
+}

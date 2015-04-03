@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+src/config/local-config.json
+*.sublime*
+.DS_Store
+*BAK*
+uploads
+config/index.js
+.validate.json
