@@ -6,7 +6,7 @@ module.exports =
 	 {
 		accpetJSON: function acceptJSON( req, res, next ) {
 
-			if(req.get('Accept') !== 'application/json') {
+			if(!req.accepts('json')) {
 				res.status( 400 ).json( {error: { meassge: util.format('Invalid Accept header: %s',req.get('Accept'))}} );
 			} else {
 				next();
