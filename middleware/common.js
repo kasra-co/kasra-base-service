@@ -13,7 +13,7 @@ module.exports =
 			}
 		},
 		error404: function(req,res) {
-			res.status( 404 ).json( {error: { message: util.format('Not found: %s',req.path)}} );
+			res.status( 404 ).json( {error: { message: util.format('Not found: %s',decodeURIComponent(req.path))}} );
 		}
 
 	};
