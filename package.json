@@ -5,8 +5,8 @@
   "main": "index.js",
   "readmeFilename": "readme.md",
   "_id": "kasra-base@1.0.0",
-  "_resolved": "git+ssh://git@kasra-deploy:menapost/kasra-base.git",
-  "_from": "kasra-base@git+ssh://git@kasra-deploy:menapost/kasra-base.git",
+  "_resolved": "git+ssh://git@github.com:kasra-co/kasra-base-service.git",
+  "_from": "kasra-base-service@git+ssh://git@github.com:kasra-co/kasra-base-service.git",
   "keywords": [
     "base"
   ],
@@ -29,8 +29,8 @@
     "q": "1.1.2",
     "moment": "2.9.0",
     "uuid": "2.0.1",
-    "kasra-logger": "git+ssh://git@kasra-deploy:menapost/kasra-logger.git",
-    "kasra-db": "git+ssh://git@kasra-deploy:menapost/kasra-db.git"
+    "kasra-logger": "git+ssh://git@github.com:kasra-co/kasra-logger.git",
+    "kasra-db": "git+ssh://git@github.com:kasra-co/kasra-db.git"
   },
   "devDependencies": {
     "chai": "1.10.0",
