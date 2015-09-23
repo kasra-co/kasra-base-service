@@ -16,21 +16,22 @@
     "test": ""
   },
   "dependencies": {
+    "async": "0.9.0",
     "body-parser": "1.9.2",
-    "superagent": "1.1.0",
+    "commander": "^2.5.0",
     "errorhandler": "1.2.2",
     "express": "4.10.2",
     "express-validation": "0.3.0",
-    "lodash": "3.6.0",
-    "underscore.string": "2.4.0",
-    "morgan": "1.5.0",
-    "commander": "2.5.0",
-    "async": "0.9.0",
-    "q": "1.1.2",
-    "moment": "2.9.0",
-    "uuid": "2.0.1",
+    "kasra-db": "git+ssh://git@github.com:kasra-co/kasra-db.git",
     "kasra-logger": "git+ssh://git@github.com:kasra-co/kasra-logger.git",
-    "kasra-db": "git+ssh://git@github.com:kasra-co/kasra-db.git"
+    "lodash": "3.6.0",
+    "moment": "2.9.0",
+    "morgan": "1.5.0",
+    "q": "1.1.2",
+    "superagent": "1.1.0",
+    "underscore.string": "^2.4.0",
+    "uuid": "2.0.1",
+    "winston": "^1.0.1"
   },
   "devDependencies": {
     "chai": "1.10.0",
