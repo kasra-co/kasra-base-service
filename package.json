@@ -22,7 +22,7 @@
     "errorhandler": "1.2.2",
     "express": "4.10.2",
     "express-validation": "0.3.0",
-    "kasra-db": "git+ssh://git@github.com:kasra-co/kasra-db.git",
+    "kasra-db": "git+ssh://git@github.com:kasra-co/kasra-db.git#node4",
     "kasra-logger": "git+ssh://git@github.com:kasra-co/kasra-logger.git",
     "lodash": "3.6.0",
     "moment": "2.9.0",
@@ -53,6 +53,11 @@
   "author": "Tamas Geschitz",
   "license": "private",
   "engines": {
-    "node": "0.10.33"
-  }
+    "node": ">0.10.33"
+  },
+  "pre-commit": [
+    "lint",
+    "validate",
+    "test"
+  ]
 }
