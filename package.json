@@ -1,6 +1,6 @@
 {
   "name": "@kasra/kasra-base-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Implements base service module, creates service and base app with common middlewares and error handlers attached.",
   "main": "index.js",
   "_resolved": "git+ssh://git@github.com:kasra-co/kasra-base-service.git",
