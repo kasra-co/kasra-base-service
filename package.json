@@ -20,7 +20,7 @@
     "errorhandler": "1.2.2",
     "express": "4.10.2",
     "express-validation": "0.3.0",
-    "@kasra/kasra-db": "^1.0.0",
+    "@kasra/kasra-db": "^1.0.1",
     "@kasra/kasra-logger": "^1.0.0",
     "lodash": "3.6.0",
     "moment": "2.9.0",
