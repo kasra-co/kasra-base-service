@@ -1,10 +1,8 @@
 {
-  "name": "kasra-base-service",
+  "name": "@kasra/kasra-base-service",
   "version": "1.0.0",
   "description": "Implements base service module, creates service and base app with common middlewares and error handlers attached.",
   "main": "index.js",
-  "readmeFilename": "readme.md",
-  "_id": "kasra-base@1.0.0",
   "_resolved": "git+ssh://git@github.com:kasra-co/kasra-base-service.git",
   "_from": "kasra-base-service@git+ssh://git@github.com:kasra-co/kasra-base-service.git",
   "keywords": [
@@ -22,8 +20,8 @@
     "errorhandler": "1.2.2",
     "express": "4.10.2",
     "express-validation": "0.3.0",
-    "kasra-db": "git+ssh://git@github.com:kasra-co/kasra-db.git",
-    "kasra-logger": "git+ssh://git@github.com:kasra-co/kasra-logger.git",
+    "kasra-db": "git+ssh://git@github.com/kasra-co/kasra-db.git",
+    "kasra-logger": "git+ssh://git@github.com/kasra-co/kasra-logger.git",
     "lodash": "3.6.0",
     "moment": "2.9.0",
     "morgan": "1.5.0",
@@ -51,8 +49,16 @@
     "precommit-hook": "latest"
   },
   "author": "Tamas Geschitz",
-  "license": "private",
+  "license": "UNLICENSED",
   "engines": {
     "node": "0.10.33"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasra-co/kasra-base-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kasra-co/kasra-base-service/issues"
+  },
+  "homepage": "https://github.com/kasra-co/kasra-base-service#readme"
 }
