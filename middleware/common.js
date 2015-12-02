@@ -6,6 +6,10 @@ module.exports =
 	 {
 		accpetJSON: function acceptJSON( req, res, next ) {
 
+			if(req.path === '/') {
+				return next();
+			}
+
 			if(!req.accepts('json') || req.get('Accept') === '*/*') {
 				res.status( 406 ).json( {error: { message: util.format('Invalid Accept header: %s',req.get('Accept'))}} );
 			} else {
